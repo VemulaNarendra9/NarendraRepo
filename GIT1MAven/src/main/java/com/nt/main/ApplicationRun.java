@@ -1,9 +1,12 @@
 package com.nt.main;
 
+import com.nt.service.Arithmatic;
+
 public class ApplicationRun {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Arithmatic a=new Arithmatic();
+		System.out.println("Sum is :"+a.sum(10, 20));
 
 	}
 
